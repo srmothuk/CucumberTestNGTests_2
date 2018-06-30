@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestNG Cucumber Example Test" verbose="1" >
+  <test name="TestNG Example Test 2" >
+    <classes>
+      <class name="TestRunner"/>
+    </classes>
+ </test>
+</suite>

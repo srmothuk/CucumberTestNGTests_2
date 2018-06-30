@@ -1,0 +1,58 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login with valid credentials",
+        "description": "",
+        "id": "login;login-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 91263383,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on the non registered (guest) user home page",
+            "match": {
+              "location": "login.i_am_on_the_non_registered_guest_user_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10263,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter user name and password",
+            "match": {
+              "location": "login.i_enter_user_name_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9474,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Guest should be taken to the logged in home page",
+            "match": {
+              "location": "login.guest_should_be_taken_to_the_logged_in_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "features/login.feature"
+  }
+]

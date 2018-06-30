@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="997" started-at="2018-06-26T11:12:31Z" finished-at="2018-06-26T11:12:32Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.TestRunnerMethod()[pri:0, instance:TestRunner@659a969b]" name="TestRunnerMethod" class="TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="997" started-at="2018-06-26T11:12:31Z" finished-at="2018-06-26T11:12:32Z">
+      <class name="TestRunner">
+        <test-method status="PASS" signature="TestRunnerMethod()[pri:0, instance:TestRunner@659a969b]" name="TestRunnerMethod" duration-ms="981" started-at="2018-06-26T16:42:31Z" description="Example of using TestNGCucumberRunner to invoke Cucumber" finished-at="2018-06-26T16:42:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRunnerMethod -->
+      </class> <!-- TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
